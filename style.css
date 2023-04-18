@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+html, body, div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+aside {
+  width: 300px;
+  height: 100%;
+  flex: 0 0 300px;
+  padding: 12px 20px;
+}
+#chart_container {
+  flex: 1 0 auto;
+  padding: 12px 20px;
+
+}
+
+.workout_nav {
+  border: 1px solid rgb(47, 45, 45);
+  border-radius: 8px;
+  margin: 8px 0;
+}
+details > summary {
+  padding: 14px 16px;
+  list-style: none;
+  cursor: pointer;
+}
+ul {
+  padding-left: 10px;
+}
+.list {
+  list-style: none;
+  cursor: pointer;
+  padding: 1.1em 0;
+  border-bottom: 0.5px solid rgba(3,3,3,.4);
+
+}
+.list h4 {
+  margin: 0;
+}
+.list.active {
+  color: white;
+  border: 2px solid rgb(247, 247, 61);
+  border-radius: 8px;
+  padding-left: 8px;
+}
